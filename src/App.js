@@ -1,10 +1,16 @@
 import React from 'react';
+import { Router } from 'react-router-dom';
+import { createMemoryHistory } from 'history';
 import logo from './logo.svg';
 import './App.css';
+import TestRouter from './TestRouter';
 
 function App() {
   return (
     <div className="App">
+      <Router history={createMemoryHistory()}>
+        <TestRouter/>
+      </Router>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

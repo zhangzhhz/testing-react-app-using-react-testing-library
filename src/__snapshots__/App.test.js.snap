@@ -5,6 +5,33 @@ exports[`should take a snapshot 1`] = `
   <div
     class="App"
   >
+    <nav
+      data-testid="navbar"
+    >
+      <a
+        data-testid="home-link"
+        href="/"
+      >
+        Home
+      </a>
+      <a
+        data-testid="about-link"
+        href="/about"
+      >
+        About
+      </a>
+      <a
+        data-testid="contact-link"
+        href="/contact/John Doe"
+      >
+        Contact
+      </a>
+    </nav>
+    <h1
+      data-testid="home-page"
+    >
+      Home page
+    </h1>
     <header
       class="App-header"
     >
